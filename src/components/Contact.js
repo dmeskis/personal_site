@@ -11,9 +11,21 @@ class Contact extends Component {
           <h1>
             Contact
           </h1>
-          <p>
-            Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
-          </p>
+          <h5>
+            Github
+          </h5>
+          <h5>
+            LinkedIn
+          </h5>
+          <h5>
+            Instagram
+          </h5>
+          <h5>
+            Email
+          </h5>
+          <h5>
+            Turing Alumni Page
+          </h5>
           <button
             onClick={() => {
               this.props.navigate("");
