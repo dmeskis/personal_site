@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import '../styles/App.css';
+import HeadShot from '../images/my_headshot.jpg';
 
 class AboutMe extends Component {
   
@@ -11,6 +12,7 @@ class AboutMe extends Component {
           <h1>
             About me
           </h1>
+          <img src={HeadShot} alt='bananas'></img>
           <p>
             Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
           </p>
