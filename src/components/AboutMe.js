@@ -8,7 +8,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-body">
+        <div className="App-body">
           <h1>
             About me
           </h1>
@@ -16,13 +16,19 @@ class AboutMe extends Component {
           <p>
             Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
           </p>
-        </header>
-        <button
+          <button
           onClick={() => {
             this.props.navigate("");
             }}>
           Home
         </button>
+        <button
+          onClick={() => {
+            this.props.navigate("Contact");
+            }}>
+          Contact
+        </button>
+        </div>
       </div>
     );
   }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import logo from '../logo.svg';
-import AboutMe from "./AboutMe"
+import AboutMe from './AboutMe'
+import Contact from './Contact'
 import '../styles/App.css';
 
 class App extends Component {
@@ -45,10 +46,20 @@ class App extends Component {
                   >
                   About Me
                 </button>
+                <button
+                  onClick={() => {
+                    this.navigate("Contact")
+                    }}
+                  >
+                  Contact
+                </button>
               </header>
         )}
         {this.state.activePage === "AboutMe" && (
           <AboutMe navigate={this.navigate}/>
+        )}
+        {this.state.activePage === "Contact" && (
+          <Contact navigate={this.navigate}/>
         )}
 
       </div>
