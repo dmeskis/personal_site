@@ -39,18 +39,6 @@ class Contact extends Component {
             </h5>
             <img class='social-icon' src={Google} alt='Google'></img>
           </div>
-          <button
-            onClick={() => {
-              this.props.navigate("");
-              }}>
-            Home
-          </button>
-          <button
-            onClick={() => {
-              this.props.navigate("AboutMe");
-              }}>
-            About Me
-          </button>
         </div>
       </div>
     );

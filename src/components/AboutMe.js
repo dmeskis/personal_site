@@ -16,18 +16,6 @@ class AboutMe extends Component {
           <p>
             Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
           </p>
-          <button
-          onClick={() => {
-            this.props.navigate("");
-            }}>
-          Home
-        </button>
-        <button
-          onClick={() => {
-            this.props.navigate("Contact");
-            }}>
-          Contact
-        </button>
         </div>
       </div>
     );
