@@ -84,9 +84,32 @@
 	flex-flow: row-reverse wrap;
 }
 
+@media only screen and (max-width: 600px) {
+  .project-left {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-right {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+p {
+  word-wrap: break-word;
+}
+
 .project-image {
   /* margin: 20px; */
-  padding: 5px;
+  border-style: groove;
+  margin: 5px;
   max-height: 35vh;
   flex: 1;
   height: auto;
@@ -95,7 +118,8 @@
 
 .project-description {
   /* margin: 20px; */
-  padding: 5px;
+  overflow-x: auto;
+  margin: 5px;
   flex: 1;
   height: auto;
 }
