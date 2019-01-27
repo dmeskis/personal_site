@@ -57,6 +57,12 @@
   color: #EF8354;
   cursor: pointer;
   margin-inline-end: 3vh;
+  transition: all .2s ease-in-out;
+}
+
+.nav-link:hover {
+  animation: glow 1s ease-in-out infinite alternate;
+  transform: scale(1.1);
 }
 
 .App-link {
@@ -74,4 +80,13 @@
     transform: rotate(-7deg);
   }
   
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #EF8354, 0 0 40px #EF8354, 0 0 50px #EF8354, 0 0 60px #EF8354, 0 0 70px #EF8354;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #EF8354, 0 0 40px #EF8354, 0 0 50px #EF8354, 0 0 60px #EF8354, 0 0 70px #EF8354, 0 0 80px #EF8354;
+  }
 }
