@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from "prop-types";
 import '../styles/App.css';
 import Github from '../images/github-logo.svg';
-import Google from '../images/google-logo.svg';
+import Email from '../images/email-logo.svg';
 import Instagram from '../images/instagram-logo.svg';
 import LinkedIn from '../images/linkedin-logo.svg';
 import Twitter from '../images/twitter-logo.svg';
@@ -19,25 +19,49 @@ class Contact extends Component {
             <h5>
               Github
             </h5>
-            <img class='social-icon' src={Github} alt='Github'></img>
+            <a href='https://github.com/dmeskis'>
+              <img 
+                className='social-icon'
+                src={Github}
+                alt='Github'>
+              </img>
+            </a>
           </div>
           <div>
             <h5>
               LinkedIn
             </h5>
-            <img class='social-icon' src={LinkedIn} alt='LinkedIn'></img>
+            <a href='https://www.linkedin.com/in/dmeskis/'>
+              <img
+                className='social-icon' 
+                src={LinkedIn} 
+                alt='LinkedIn'>
+              </img>
+            </a>
           </div>
           <div>
             <h5>
               Instagram
             </h5>
-            <img class='social-icon' src={Instagram} alt='Instagram'></img>
+            <a href='https://www.instagram.com/dmeskis'>
+              <img 
+                className='social-icon' 
+                src={Instagram} 
+                alt='Instagram'>
+              </img>
+            </a>
           </div>
           <div>
             <h5>
-              Google
+              Email
             </h5>
-            <img class='social-icon' src={Google} alt='Google'></img>
+            <a href='mailto:dmeskis@gmail.com?subject=To my favorite software developer'>
+              <img 
+                className='social-icon' 
+                src={Email} 
+                alt='Email'>
+              </img>
+            </a>
           </div>
         </div>
       </div>

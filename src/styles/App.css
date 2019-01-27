@@ -44,6 +44,9 @@
 .navbar {
   background-color: #2D3142;
   /* min-height: 5vh; */
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
