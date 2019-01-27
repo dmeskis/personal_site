@@ -13,28 +13,6 @@ class Welcome extends Component {
         <h3>
           Software Developer
         </h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <button
-          onClick={() => {
-            this.props.navigate("AboutMe");
-            }}
-          >
-          About Me
-        </button>
-        <button
-          onClick={() => {
-            this.props.navigate("Contact");
-            }}
-          >
-          Contact
-        </button>
       </header>
     );
   }

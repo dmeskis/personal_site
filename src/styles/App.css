@@ -12,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4F5D75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .App-body {
-  background-color: #282c34;
+  background-color: #4F5D75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,6 +31,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.navbar {
+  background-color: #2D3142;
+  /* min-height: 5vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav-link {
+  color: #EF8354;
+  cursor: pointer;
 }
 
 .App-link {

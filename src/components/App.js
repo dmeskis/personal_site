@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import logo from '../logo.svg';
+import Navbar from './Navbar';
 import Welcome from './Welcome'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
@@ -24,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar navigate={this.navigate}/>
         {this.state.activePage === "" && (
           <Welcome navigate={this.navigate}/>
         )}
