@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
 import logo from '../logo.svg';
-import AboutMe from "./AboutMe"
+import Navbar from './Navbar';
+import Welcome from './Welcome'
+import AboutMe from './AboutMe'
+import Contact from './Contact'
 import '../styles/App.css';
 
 class App extends Component {
@@ -22,33 +25,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar navigate={this.navigate}/>
         {this.state.activePage === "" && (
-                <header className="App-header">
-                <h1>
-                  Dylan Meskis
-                </h1>
-                <h3>
-                  Software Developer
-                </h3>
-                <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn React
-                </a>
-                <button
-                  onClick={() => {
-                    this.navigate("AboutMe")
-                    }}
-                  >
-                  About Me
-                </button>
-              </header>
+          <Welcome navigate={this.navigate}/>
         )}
         {this.state.activePage === "AboutMe" && (
           <AboutMe navigate={this.navigate}/>
+        )}
+        {this.state.activePage === "Contact" && (
+          <Contact navigate={this.navigate}/>
         )}
 
       </div>

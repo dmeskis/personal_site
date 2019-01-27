@@ -2,13 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.social-icon {
+  height: 10vmin;
+}
+
+.social-icon:hover {
+  animation: social-icon-wiggle .35s linear 0s infinite normal; 
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.headshot{
+  height: 30vmin;
+  border-radius: 50%;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4F5D75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +28,8 @@
   color: white;
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: #4F5D75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,17 +37,40 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.navbar {
+  background-color: #2D3142;
+  /* min-height: 5vh; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav-link {
+  color: #EF8354;
+  cursor: pointer;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
+@keyframes social-icon-wiggle {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  30% {
+    transform: rotate(7deg);
   }
+  70% {
+    transform: rotate(-7deg);
+  }
+  
 }

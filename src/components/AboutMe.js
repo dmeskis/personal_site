@@ -8,21 +8,19 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-body">
+        <div className="App-body">
+          <img
+            className='headshot'
+            src={HeadShot}
+            alt='bananas'>
+          </img>
           <h1>
             About me
           </h1>
-          <img src={HeadShot} alt='bananas'></img>
           <p>
             Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
           </p>
-        </header>
-        <button
-          onClick={() => {
-            this.props.navigate("");
-            }}>
-          Home
-        </button>
+        </div>
       </div>
     );
   }
