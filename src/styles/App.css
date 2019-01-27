@@ -41,7 +41,7 @@
 
 .navbar {
   background-color: #2D3142;
-  /* min-height: 5vh; */
+  padding: 5px;
   position: fixed;
   width: 100%;
   top: 0;

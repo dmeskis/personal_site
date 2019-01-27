@@ -22,7 +22,7 @@ class Projects extends Component {
         >
         </img>
         <p className='project-description'>
-          Pitch Battles was my capstone project at Turing School of Software and Design. 
+        Pitch Battles is a desktop web application designed as a training tool for musicians to practice and learn reading pitches. It was designed specifically with young musicians in mind as a way to keep this learning process fun and engaging. I worked with Kevin Simpson and Haley Jacobs, two developers in the front-end program, to create Pitch Battles. My job as the lone back-end developer involved building out a seperate back-end application for handling data, authorization, and post-game analysis.
         </p>
         </div>
 
