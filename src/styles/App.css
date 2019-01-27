@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .social-icon {
   height: 10vmin;
 }
@@ -17,7 +12,10 @@
   cursor: pointer;
 }
 
-
+.headshot{
+  height: 30vmin;
+  border-radius: 50%;
+}
 
 .App-header {
   background-color: #4F5D75;
@@ -62,15 +60,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes social-icon-wiggle {

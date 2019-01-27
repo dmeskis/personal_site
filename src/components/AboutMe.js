@@ -9,10 +9,14 @@ class AboutMe extends Component {
     return (
       <div className="App">
         <div className="App-body">
+          <img
+            className='headshot'
+            src={HeadShot}
+            alt='bananas'>
+          </img>
           <h1>
             About me
           </h1>
-          <img src={HeadShot} alt='bananas'></img>
           <p>
             Lorem ipsum dolores wallaby great gatsby flying monkey hidden dragon.
           </p>
