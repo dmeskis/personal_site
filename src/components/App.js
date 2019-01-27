@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import Navbar from './Navbar';
 import Welcome from './Welcome'
+import Projects from './Projects'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
 import '../styles/App.css';
@@ -35,7 +36,9 @@ class App extends Component {
         {this.state.activePage === "Contact" && (
           <Contact navigate={this.navigate}/>
         )}
-
+        {this.state.activePage === "Projects" && (
+          <Projects navigate={this.navigate}/>
+        )}
       </div>
     );
   }

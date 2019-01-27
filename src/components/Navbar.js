@@ -12,15 +12,23 @@ class Navbar extends Component {
           onClick={() => {
             this.props.navigate("");
             }}
-          >
+        >
           Home
+        </a>
+        <a
+          className="nav-link"
+          onClick={() => {
+            this.props.navigate("Projects");
+            }}
+        >
+          Projects
         </a>
         <a
           className="nav-link"
           onClick={() => {
             this.props.navigate("AboutMe");
             }}
-          >
+        >
           About Me
         </a>
         <a
@@ -28,7 +36,7 @@ class Navbar extends Component {
           onClick={() => {
             this.props.navigate("Contact");
             }}
-          >
+        >
           Contact
         </a>
       </div>
