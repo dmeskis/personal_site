@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-import logo from '../logo.svg';
 import Navbar from './Navbar';
 import Welcome from './Welcome'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
-import Contact from './Contact'
+import Connect from './Connect'
 import '../styles/App.css';
 
 class App extends Component {
@@ -33,8 +32,8 @@ class App extends Component {
         {this.state.activePage === "AboutMe" && (
           <AboutMe navigate={this.navigate}/>
         )}
-        {this.state.activePage === "Contact" && (
-          <Contact navigate={this.navigate}/>
+        {this.state.activePage === "Connect" && (
+          <Connect navigate={this.navigate}/>
         )}
         {this.state.activePage === "Projects" && (
           <Projects navigate={this.navigate}/>

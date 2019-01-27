@@ -34,10 +34,10 @@ class Navbar extends Component {
         <a
           className="nav-link"
           onClick={() => {
-            this.props.navigate("Contact");
+            this.props.navigate("Connect");
             }}
         >
-          Contact
+          Connect
         </a>
       </div>
     );

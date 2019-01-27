@@ -5,14 +5,14 @@ import Github from '../images/github-logo.svg';
 import Email from '../images/email-logo.svg';
 import Instagram from '../images/instagram-logo.svg';
 import LinkedIn from '../images/linkedin-logo.svg';
-import Twitter from '../images/twitter-logo.svg';
-class Contact extends Component {
+
+class Connect extends Component {
   
   render() {
     return (
       <div className="App-body">
         <h1>
-          Contact
+          Connect
         </h1>
         <div>
           <h5>
@@ -67,8 +67,8 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Connect;
 
-Contact.propTypes = {
+Connect.propTypes = {
   navigate: PropTypes.func
 };

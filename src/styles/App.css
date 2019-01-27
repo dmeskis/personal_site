@@ -61,12 +61,39 @@
 }
 
 .nav-link:hover {
-  animation: glow 1s ease-in-out infinite alternate;
   transform: scale(1.1);
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.project-left {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 35vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.project-right {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 35vh;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: flex-end;
+}
+
+.project-image {
+  max-width: 33%;
+  height: auto;
+  object-fit: cover;
 }
 
 @keyframes social-icon-wiggle {
@@ -90,3 +117,6 @@
     text-shadow: 0 0 20px #fff, 0 0 30px #EF8354, 0 0 40px #EF8354, 0 0 50px #EF8354, 0 0 60px #EF8354, 0 0 70px #EF8354, 0 0 80px #EF8354;
   }
 }
+
+
+/* Below is the animations for the sparkle effect */
