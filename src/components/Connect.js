@@ -15,9 +15,6 @@ class Connect extends Component {
           Connect
         </h1>
         <div>
-          <h5>
-            Github
-          </h5>
           <a href='https://github.com/dmeskis'>
             <img 
               className='social-icon'
@@ -27,9 +24,6 @@ class Connect extends Component {
           </a>
         </div>
         <div>
-          <h5>
-            LinkedIn
-          </h5>
           <a href='https://www.linkedin.com/in/dmeskis/'>
             <img
               className='social-icon' 
@@ -39,9 +33,6 @@ class Connect extends Component {
           </a>
         </div>
         <div>
-          <h5>
-            Instagram
-          </h5>
           <a href='https://www.instagram.com/dmeskis'>
             <img 
               className='social-icon' 
@@ -51,9 +42,6 @@ class Connect extends Component {
           </a>
         </div>
         <div>
-          <h5>
-            Email
-          </h5>
           <a href='mailto:dmeskis@gmail.com?subject=To my favorite software developer'>
             <img 
               className='social-icon' 
