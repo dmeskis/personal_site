@@ -29,15 +29,16 @@ class Projects extends Component {
         <div
           className='project-right'
         >
-        <p className='project-description'>
-          Pitch Battles was my capstone project at Turing School of Software and Design. 
-        </p>
         <img
           className='project-image'
           src={PitchBattles}
           alt='Pitch Battles'
         >
         </img>
+        <p className='project-description'>
+          Pitch Battles was my capstone project at Turing School of Software and Design. 
+        </p>
+ 
         </div>
 
 
