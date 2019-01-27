@@ -21,7 +21,7 @@ class Projects extends Component {
           alt='Pitch Battles'
         >
         </img>
-        <p>
+        <p className='project-description'>
           Pitch Battles was my capstone project at Turing School of Software and Design. 
         </p>
         </div>
@@ -29,7 +29,7 @@ class Projects extends Component {
         <div
           className='project-right'
         >
-        <p>
+        <p className='project-description'>
           Pitch Battles was my capstone project at Turing School of Software and Design. 
         </p>
         <img
