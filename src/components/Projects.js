@@ -18,9 +18,12 @@ class Projects extends Component {
         <img
           className='project-image'
           src={PitchBattles}
-          alt='Pitch Battles'
-        >
+          alt='Pitch Battles'>
         </img>
+        <div
+          className='project-image-overlay'>
+          Pitch Battles
+        </div>
         <div
           className='project-description'>
           <p>

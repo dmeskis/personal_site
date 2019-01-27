@@ -69,19 +69,17 @@
 }
 
 .project-left {
-  /* margin: -10px; */
   justify-content: center;
   position: relative;
 	display: flex;
-	flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .project-right {
-  /* margin: -10px; */
   justify-content: center;
   position: relative;
 	display: flex;
-	flex-flow: row-reverse wrap;
+  flex-flow: row-reverse wrap;
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,6 +111,24 @@ p {
   max-height: 35vh;
   flex: 1;
   height: auto;
+  object-fit: cover;
+}
+
+.project-image:hover .project-image-overlay {
+  opacity: 1;
+}
+
+.project-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
   object-fit: cover;
 }
 
